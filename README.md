@@ -8,7 +8,7 @@ It groups mall customers into different clusters based on their Annual Income an
 ---
 # Dataset
 
-Mall Customers Dataset ```python (Mall_Customers.csv)```
+Mall Customers Dataset ``` (Mall_Customers.csv)```
  * Total Records: 200
  * Total Features: 5
 Features used for clustering:
@@ -59,9 +59,11 @@ kmeans = KMeans(n_clusters=7, random_state=42)
 # Visualization
 
 Elbow Method Graph – Used to determine optimal clusters
- <img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/fa4a2023-f87f-4e3c-9caf-d808b089916e" />
+
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/fa4a2023-f87f-4e3c-9caf-d808b089916e" />
  
 Customer Cluster Scatter Plot – Visual representation of segmented customers
+
 <img width="578" height="455" alt="image" src="https://github.com/user-attachments/assets/b4bc6f55-ff06-4fd9-8264-84883cd3038c" />
 
 ---
